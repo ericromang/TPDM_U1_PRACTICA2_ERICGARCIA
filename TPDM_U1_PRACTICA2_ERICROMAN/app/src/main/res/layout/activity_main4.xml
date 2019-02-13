@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:background="#999999"
+    android:orientation="horizontal"
+    tools:context=".Main4Activity">
+    <TextView
+        android:text="Elegir un OPCION"
+        android:textSize="30dp"
+        android:layout_columnSpan="2"
+        />
+    <Button
+        android:text="1"
+        android:background="@drawable/manoteclado"
+        android:layout_height="190dp"
+        android:layout_width="190dp"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:text="2"
+        android:background="@drawable/manoteclado"
+        android:layout_height="190dp"
+        android:layout_width="190dp"
+        android:layout_margin="5dp"
+        />
+    <RadioButton android:text="Este es"/>
+    <RadioButton android:text="Este es"/>
+    <Button
+        android:text="3"
+        android:background="@drawable/manoteclado"
+        android:layout_height="190dp"
+        android:layout_width="190dp"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:text="4"
+        android:background="@drawable/manoteclado"
+        android:layout_height="190dp"
+        android:layout_width="190dp"
+        android:layout_margin="5dp"
+        />
+    <RadioButton android:text="Este es"/>
+    <RadioButton android:text="Este es"/>
+    <Button android:layout_columnSpan="2"
+        android:background="@drawable/redondeado"
+        android:ems="25"
+        android:text="Aceptar"
+        />
+</GridLayout>
